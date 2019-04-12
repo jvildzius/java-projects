@@ -1,8 +1,6 @@
 /******
-* Pset4 for CSCI E-10b Spring 2019
-* Jennifer Vildzius
 *
-* A class that provides the mathematical logic for a  calculator GUI
+* A class that provides the mathematical logic for a calculator GUI.
 *
 */
 import java.io.*;
@@ -212,8 +210,7 @@ public class CalcBackend {
             rightOp = 0;
             rightOpExists = false;
             displayVal = leftOp;
-        }
-        
+        } 
     }
 
     // category: unary; square root
