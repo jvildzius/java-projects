@@ -1,8 +1,6 @@
 /******
-* Pset4 for CSCI E-10b Spring 2019
-* Jennifer Vildzius
 *
-* A calculator GUI
+* A calculator GUI using Swing
 *
 */
 
