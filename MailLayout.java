@@ -1,8 +1,6 @@
 /******
-* Pset4 for CSCI E-10b Spring 2019
-* Jennifer Vildzius
 *
-* A simple email layout that writes an "email" to a file outbox.txt
+* A simple, standalone program that produces a Swing email layout that writes the message to a text file
 *
 */
 
@@ -52,7 +50,6 @@ class MyWindow extends JFrame {
         this.setSize (450, 350);
 
         // create nested panels
-
         // top level panel for the north
         JPanel northPanel = new JPanel(new BorderLayout());
         northPanel.setVisible(true);
@@ -153,16 +150,7 @@ class MyWindow extends JFrame {
     }
 
     public void txtSubjectEntered( FocusEvent e ) {
-        
-        /* TO DO - fix this
-        Scanner sc = new Scanner(txtSubject.getText());
-
-        do
-        {
-            this.setTitle(txtSubject.getText());
-        }
-        while (sc.hasNext());
-        */
+	// TO DO
     }
 
     public void txtSubjectFocusLost( FocusEvent ev) {
